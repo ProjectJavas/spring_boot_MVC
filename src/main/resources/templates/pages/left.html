@@ -1,0 +1,13 @@
+
+ <div sec:authorize="hasRole('ADMIN')" th:fragment="content_left" class="col-sm-3" style="background-color: cadetblue;height:500px;">
+        <a th:href= "@{/product/index}">Product</a><br>
+        <a th:href= "@{/logout}">Log out</a><br>
+        <p>User Name:<b th:text="${session.userName1}"></b></p>
+        <p>User Role:<b th:text="${session.roleName[0]}"></b></p>
+ </div>
+ <div sec:authorize="hasRole('USER')" th:fragment="content_left" class="col-sm-3" style="background-color: cadetblue;height:500px;">
+     <a th:href= "@{/register}">Register</a><br>
+     <a th:href= "@{/logout}">Log out</a><br>
+     <p>User Name:<b th:text="${session.userName1}"></b></p>
+      <p>User Role:<b th:text="${session.roleName[0]}"></b></p>
+ </div>

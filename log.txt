@@ -1,0 +1,279 @@
+2024-07-12T13:49:16.708+07:00  WARN 62604 --- [spring_mvc] [http-nio-8082-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.setect.spring_mvc.controllers.ProductController.post(com.setect.spring_mvc.models.Product,org.springframework.web.multipart.MultipartFile): [Field error in object 'product' on field 'barcode': rejected value [0dd]; codes [typeMismatch.product.barcode,typeMismatch.barcode,typeMismatch.long,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.barcode,barcode]; arguments []; default message [barcode]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'long' for property 'barcode'; For input string: "0dd"]] ]
+2024-07-12T13:49:34.390+07:00  INFO 63115 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T13:49:34.392+07:00  INFO 63115 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T13:49:35.635+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-07-12T13:49:35.640+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T13:49:35.640+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T13:49:35.662+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T13:49:35.662+07:00  INFO 63115 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1269 ms
+2024-07-12T13:49:36.114+07:00  INFO 63115 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T13:49:36.143+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T13:49:36.469+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T13:49:36.847+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T13:49:36.880+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-07-12T13:49:38.364+07:00  INFO 63115 --- [spring_mvc] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T13:49:38.364+07:00  INFO 63115 --- [spring_mvc] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T13:49:38.370+07:00  INFO 63115 --- [spring_mvc] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-07-12T13:49:50.064+07:00  WARN 63115 --- [spring_mvc] [http-nio-8082-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.setect.spring_mvc.controllers.ProductController.post(com.setect.spring_mvc.models.Product,org.springframework.web.multipart.MultipartFile): [Field error in object 'product' on field 'barcode': rejected value [0dd]; codes [typeMismatch.product.barcode,typeMismatch.barcode,typeMismatch.long,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.barcode,barcode]; arguments []; default message [barcode]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'long' for property 'barcode'; For input string: "0dd"]] ]
+2024-07-12T13:50:06.902+07:00  WARN 63115 --- [spring_mvc] [http-nio-8082-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-07-12T14:02:29.635+07:00  INFO 63115 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
+2024-07-12T14:02:29.836+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-07-12T14:02:29.837+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:02:29.837+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:02:29.841+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:02:29.841+07:00  INFO 63115 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2024-07-12T14:02:29.990+07:00  INFO 63115 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:02:29.993+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:02:30.018+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:02:30.037+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:02:30.045+07:00  INFO 63115 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-07-12T14:02:30.049+07:00  INFO 63115 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:02:57.553+07:00  INFO 67611 --- [spring_mvc] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:02:57.593+07:00  INFO 67611 --- [spring_mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:02:57.666+07:00  INFO 67611 --- [spring_mvc] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:03:54.237+07:00  INFO 63115 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 21 class path changes (0 additions, 21 deletions, 0 modifications)
+2024-07-12T14:05:44.388+07:00  INFO 68874 --- [spring_mvc] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:05:44.432+07:00  INFO 68874 --- [spring_mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:05:44.502+07:00  INFO 68874 --- [spring_mvc] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:07:05.062+07:00  INFO 69212 --- [spring_mvc] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:07:05.108+07:00  INFO 69212 --- [spring_mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:07:05.177+07:00  INFO 69212 --- [spring_mvc] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:07:19.492+07:00  INFO 69397 --- [spring_mvc] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:07:19.533+07:00  INFO 69397 --- [spring_mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:07:19.607+07:00  INFO 69397 --- [spring_mvc] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:21:04.199+07:00  INFO 71743 --- [spring_mvc] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:21:04.242+07:00  INFO 71743 --- [spring_mvc] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:21:04.313+07:00  INFO 71743 --- [spring_mvc] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:28:38.228+07:00  INFO 72898 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T14:28:38.229+07:00  INFO 72898 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T14:28:38.689+07:00  INFO 72898 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-07-12T14:28:38.693+07:00  INFO 72898 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:28:38.694+07:00  INFO 72898 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:28:38.710+07:00  INFO 72898 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:28:38.710+07:00  INFO 72898 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 481 ms
+2024-07-12T14:28:38.919+07:00  INFO 72898 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:28:38.943+07:00  INFO 72898 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:28:39.018+07:00  INFO 72898 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:28:39.132+07:00  INFO 72898 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:28:39.151+07:00  WARN 72898 --- [spring_mvc] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-07-12T14:28:39.168+07:00  INFO 72898 --- [spring_mvc] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-12T14:28:39.175+07:00 ERROR 72898 --- [spring_mvc] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2024-07-12T14:31:01.083+07:00  INFO 73245 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T14:31:01.085+07:00  INFO 73245 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T14:31:01.541+07:00  INFO 73245 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:31:01.546+07:00  INFO 73245 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:31:01.547+07:00  INFO 73245 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:31:01.565+07:00  INFO 73245 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:31:01.565+07:00  INFO 73245 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 480 ms
+2024-07-12T14:31:01.787+07:00  INFO 73245 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:31:01.809+07:00  INFO 73245 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:31:01.881+07:00  INFO 73245 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:31:01.986+07:00  INFO 73245 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:31:02.009+07:00  INFO 73245 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:31:04.186+07:00  INFO 73245 --- [spring_mvc] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T14:31:04.187+07:00  INFO 73245 --- [spring_mvc] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T14:31:04.187+07:00  INFO 73245 --- [spring_mvc] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-12T14:31:30.889+07:00  INFO 73418 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T14:31:30.890+07:00  INFO 73418 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T14:31:31.356+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:31:31.361+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:31:31.361+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:31:31.379+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:31:31.379+07:00  INFO 73418 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 489 ms
+2024-07-12T14:31:31.597+07:00  INFO 73418 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:31:31.620+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:31:31.693+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:31:31.816+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:31:31.842+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:31:33.974+07:00  INFO 73418 --- [spring_mvc] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T14:31:33.974+07:00  INFO 73418 --- [spring_mvc] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T14:31:33.975+07:00  INFO 73418 --- [spring_mvc] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-12T14:32:40.929+07:00  INFO 73418 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-12T14:32:41.107+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:32:41.108+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:32:41.108+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:32:41.112+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:32:41.112+07:00  INFO 73418 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2024-07-12T14:32:41.257+07:00  INFO 73418 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:32:41.260+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:32:41.279+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:32:41.298+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:32:41.303+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:32:41.307+07:00  INFO 73418 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:34:39.989+07:00  INFO 73418 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-12T14:34:40.136+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:34:40.136+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:34:40.136+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:34:40.139+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:34:40.140+07:00  INFO 73418 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 102 ms
+2024-07-12T14:34:40.281+07:00  INFO 73418 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:34:40.283+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:34:40.298+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:34:40.316+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:34:40.321+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:34:40.325+07:00  INFO 73418 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:35:11.008+07:00  INFO 73418 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-12T14:35:11.194+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:35:11.194+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:35:11.194+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:35:11.198+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:35:11.198+07:00  INFO 73418 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2024-07-12T14:35:11.340+07:00  INFO 73418 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:35:11.342+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:35:11.356+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:35:11.374+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:35:11.378+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:35:11.381+07:00  INFO 73418 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:35:27.933+07:00  INFO 73418 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-12T14:35:28.071+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:35:28.071+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:35:28.071+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:35:28.074+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:35:28.074+07:00  INFO 73418 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 88 ms
+2024-07-12T14:35:28.210+07:00  INFO 73418 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:35:28.212+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:35:28.225+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:35:28.240+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:35:28.243+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:35:28.246+07:00  INFO 73418 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:35:57.936+07:00  INFO 73418 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-12T14:35:58.068+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:35:58.068+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:35:58.068+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:35:58.072+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:35:58.072+07:00  INFO 73418 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 96 ms
+2024-07-12T14:35:58.218+07:00  INFO 73418 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:35:58.220+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:35:58.236+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:35:58.251+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:35:58.256+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:35:58.259+07:00  INFO 73418 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:36:12.791+07:00  INFO 73418 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-12T14:36:12.918+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:36:12.918+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:36:12.918+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:36:12.921+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:36:12.921+07:00  INFO 73418 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 80 ms
+2024-07-12T14:36:13.062+07:00  INFO 73418 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:36:13.064+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:36:13.076+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:36:13.091+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:36:13.095+07:00  INFO 73418 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:36:13.098+07:00  INFO 73418 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:36:14.609+07:00  INFO 75005 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T14:36:14.610+07:00  INFO 75005 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T14:36:15.114+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:36:15.118+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:36:15.118+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:36:15.138+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:36:15.138+07:00  INFO 75005 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 528 ms
+2024-07-12T14:36:15.366+07:00  INFO 75005 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:36:15.389+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:36:15.465+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:36:15.622+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:36:15.659+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:36:16.340+07:00  INFO 75005 --- [spring_mvc] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T14:36:16.340+07:00  INFO 75005 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T14:36:16.341+07:00  INFO 75005 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-12T14:38:01.156+07:00  INFO 75005 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-12T14:38:01.354+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:38:01.355+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:38:01.355+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:38:01.358+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:38:01.358+07:00  INFO 75005 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2024-07-12T14:38:01.511+07:00  INFO 75005 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:38:01.513+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:38:01.533+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:38:01.554+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:38:01.561+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:38:01.566+07:00  INFO 75005 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:38:10.032+07:00  INFO 75005 --- [spring_mvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-12T14:38:10.173+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:38:10.173+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:38:10.173+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:38:10.177+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:38:10.177+07:00  INFO 75005 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 92 ms
+2024-07-12T14:38:10.318+07:00  INFO 75005 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:38:10.323+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:38:10.340+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:38:10.357+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:38:10.364+07:00  INFO 75005 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:38:10.367+07:00  INFO 75005 --- [spring_mvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-12T14:38:11.728+07:00  INFO 75005 --- [spring_mvc] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T14:38:11.728+07:00  INFO 75005 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T14:38:11.730+07:00  INFO 75005 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-12T14:51:55.672+07:00  INFO 79479 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T14:51:55.673+07:00  INFO 79479 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T14:51:56.206+07:00  INFO 79479 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:51:56.211+07:00  INFO 79479 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:51:56.211+07:00  INFO 79479 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:51:56.229+07:00  INFO 79479 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:51:56.230+07:00  INFO 79479 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
+2024-07-12T14:51:56.477+07:00  INFO 79479 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:51:56.501+07:00  INFO 79479 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:51:56.590+07:00  INFO 79479 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:51:56.775+07:00  INFO 79479 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:51:56.809+07:00  INFO 79479 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:51:57.517+07:00  INFO 79479 --- [spring_mvc] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T14:51:57.518+07:00  INFO 79479 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T14:51:57.518+07:00  INFO 79479 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-12T14:56:11.559+07:00  INFO 80777 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T14:56:11.560+07:00  INFO 80777 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T14:56:12.018+07:00  INFO 80777 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T14:56:12.022+07:00  INFO 80777 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T14:56:12.022+07:00  INFO 80777 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T14:56:12.037+07:00  INFO 80777 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T14:56:12.037+07:00  INFO 80777 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 477 ms
+2024-07-12T14:56:12.256+07:00  INFO 80777 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T14:56:12.278+07:00  INFO 80777 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T14:56:12.359+07:00  INFO 80777 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T14:56:12.467+07:00  INFO 80777 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T14:56:12.489+07:00  INFO 80777 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T14:56:12.564+07:00  INFO 80777 --- [spring_mvc] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T14:56:12.564+07:00  INFO 80777 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T14:56:12.565+07:00  INFO 80777 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-12T15:00:47.686+07:00  INFO 82283 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T15:00:47.687+07:00  INFO 82283 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T15:00:48.086+07:00  INFO 82283 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T15:00:48.090+07:00  INFO 82283 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T15:00:48.090+07:00  INFO 82283 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T15:00:48.106+07:00  INFO 82283 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T15:00:48.106+07:00  INFO 82283 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 419 ms
+2024-07-12T15:00:48.336+07:00  INFO 82283 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T15:00:48.354+07:00  INFO 82283 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T15:00:48.424+07:00  INFO 82283 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T15:00:48.526+07:00  INFO 82283 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T15:00:48.547+07:00  INFO 82283 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T15:00:48.762+07:00  INFO 82283 --- [spring_mvc] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T15:00:48.762+07:00  INFO 82283 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T15:00:48.763+07:00  INFO 82283 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-12T15:01:59.086+07:00  INFO 82665 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-12T15:01:59.087+07:00  INFO 82665 --- [spring_mvc] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-12T15:01:59.690+07:00  INFO 82665 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-07-12T15:01:59.695+07:00  INFO 82665 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-12T15:01:59.695+07:00  INFO 82665 --- [spring_mvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12T15:01:59.713+07:00  INFO 82665 --- [spring_mvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-12T15:01:59.713+07:00  INFO 82665 --- [spring_mvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 626 ms
+2024-07-12T15:01:59.945+07:00  INFO 82665 --- [spring_mvc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-12T15:01:59.965+07:00  INFO 82665 --- [spring_mvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-12T15:02:00.064+07:00  INFO 82665 --- [spring_mvc] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-12T15:02:00.270+07:00  INFO 82665 --- [spring_mvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-12T15:02:00.297+07:00  INFO 82665 --- [spring_mvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-07-12T15:02:00.413+07:00  INFO 82665 --- [spring_mvc] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12T15:02:00.413+07:00  INFO 82665 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-12T15:02:00.413+07:00  INFO 82665 --- [spring_mvc] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

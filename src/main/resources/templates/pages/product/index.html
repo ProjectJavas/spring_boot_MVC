@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+layout:decorate="~{index}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>product</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div layout:fragment="content">
+        <a  data-th-href= "@{/product/create}">Add</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Barcode</th>
+                    <th>Unit Price</th>
+                    <th>Sell Price</th>
+                    <th>Photo</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-th-each= "col:${product}">
+                    <td data-th-text="${col.id}"></td>
+                    <td data-th-text="${col.name}">Name</td>
+                    <td data-th-text="${col.Barcode}">Barcode</td>
+                    <td data-th-text="${col.unitPrice}">Unit Price</td>
+                    <td data-th-text="${col.sellPrice}">Sell Price</td>
+                    <td><img th:src="${col.photo}"></td>
+                    <td>
+                        <a data-th-href= "@{/product/view/{id}(id=${col.id})}">View</a>
+                        <a data-th-href= "@{/product/edit/{id}(id=${col.id})}">Edit</a>
+                        <a data-th-href="@{/product/delete/{id}(id=${col.id})}">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    </body>
+</html>
