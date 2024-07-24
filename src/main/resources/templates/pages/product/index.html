@@ -37,7 +37,9 @@ layout:decorate="~{index}">
                     <td data-th-text="${col.Barcode}">Barcode</td>
                     <td data-th-text="${col.unitPrice}">Unit Price</td>
                     <td data-th-text="${col.sellPrice}">Sell Price</td>
-                    <td><img th:src="${col.photo}"></td>
+                    <td>
+                        <img th:src="@{'/photos/' + ${col.photo}}" width="50"/>
+                    </td>
                     <td>
                         <a data-th-href= "@{/product/view/{id}(id=${col.id})}">View</a>
                         <a data-th-href= "@{/product/edit/{id}(id=${col.id})}">Edit</a>

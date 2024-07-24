@@ -12,7 +12,8 @@ public class Product {
     private String photo;
 
     public static ArrayList<Product> productList1 = new ArrayList(
-            Arrays.asList(new Product(1, "ABC", 1111, 1, 2, null), new Product(2, "Tiger", 2222, 1, 2, null)));
+            Arrays.asList(new Product(1, "ABC", 1111, 1, 2, "ABC.png"),
+                    new Product(2, "Tiger", 2222, 1, 2, null)));
 
     public Product() {
 

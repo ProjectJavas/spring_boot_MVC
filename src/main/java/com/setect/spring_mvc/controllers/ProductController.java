@@ -1,8 +1,10 @@
 package com.setect.spring_mvc.controllers;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.UUID;
 
 import org.apache.tomcat.util.http.fileupload.FileUpload;
 
@@ -22,6 +24,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.setect.spring_mvc.models.FileUploadUtil;
 import com.setect.spring_mvc.models.Product;
+
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpSession;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,6 +36,7 @@ import org.slf4j.LoggerFactory;
 @RequestMapping("/product/")
 public class ProductController {
     private final Logger log = LoggerFactory.getLogger(this.getClass());
+    private static final String UPLOAD_DIRECTORY = "/images";
 
     @RequestMapping("index")
     public String index(Model model) {
@@ -55,8 +62,10 @@ public class ProductController {
     @PostMapping("post")
     public String post(@ModelAttribute("product") Product product, @RequestParam("file") MultipartFile file) {
         try {
-            String fileName = file.getOriginalFilename();
+            UUID uuid = UUID.randomUUID();
+            String fileName = uuid + "_" + file.getOriginalFilename();
             String uploadDir = "photos/";
+            product.setPhoto(fileName);
             FileUploadUtil.saveFile(uploadDir, fileName, file);
             Product.productList1.add(product);
         } catch (Exception e) {
@@ -82,6 +91,7 @@ public class ProductController {
         for (var col : Product.productList1) {
             if (col.getId() == id) {
                 col.setName(product.getName());
+
             }
         }
 
@@ -93,7 +103,9 @@ public class ProductController {
         try {
             for (var col : Product.productList1) {
                 if (col.getId() == id) {
+                    FileUploadUtil.removePhoto(col.getPhoto());
                     Product.productList1.remove(col);
+
                 }
             }
         } catch (Exception ex) {

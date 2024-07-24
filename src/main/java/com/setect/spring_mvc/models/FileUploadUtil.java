@@ -11,14 +11,24 @@ import java.util.UUID;
 public class FileUploadUtil {
     public static void saveFile(String uploadDir, String fileName, MultipartFile file) throws IOException {
         Path uploadPath = Paths.get("src/main/resources/static/" + uploadDir);
-
         if (!Files.exists(uploadPath)) {
             Files.createDirectories(uploadPath);
         }
 
         try {
-            UUID uuid = UUID.randomUUID();
-            Files.copy(file.getInputStream(), uploadPath.resolve(uuid.toString() + "_" + fileName));
+
+            Files.copy(file.getInputStream(), uploadPath.resolve(fileName));
+        } catch (IOException e) {
+            throw new IOException("Could not save file: " + fileName, e);
+        }
+    }
+
+    public static void removePhoto(String fileName) throws IOException {
+        Path uploadPath = Paths.get("src/main/resources/static/photos/" + fileName);
+        try {
+            if (Files.exists(uploadPath)) {
+                Files.delete(uploadPath);
+            }
         } catch (IOException e) {
             throw new IOException("Could not save file: " + fileName, e);
         }
